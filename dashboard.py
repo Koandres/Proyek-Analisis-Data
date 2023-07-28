@@ -51,7 +51,7 @@ max_date = day_df["dteday"].max()
  
 with st.sidebar:
     # Menambahkan logo perusahaan
-    st.image("https://img.freepik.com/premium-vector/red-bike-rental-logo-with-map-pin-concept-biking-bycicle-sale-rent-bike-trip-company-mark-repair-isolated-white-background-flat-style-trend-modern-logotype-design-vector-illustration_117142-390.jpg")
+    st.image("https://static.vecteezy.com/system/resources/thumbnails/002/492/024/small/bike-sharing-point-icon-on-white-vector.jpg")
     
     # Mengambil start_date & end_date dari date_input
     start_date, end_date = st.date_input(
