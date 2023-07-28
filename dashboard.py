@@ -51,7 +51,7 @@ max_date = day_df["dteday"].max()
  
 with st.sidebar:
     # Menambahkan logo perusahaan
-    st.image("https://github.com/dicodingacademy/assets/raw/main/logo.png")
+    st.image(https://img.freepik.com/premium-vector/red-bike-rental-logo-with-map-pin-concept-biking-bycicle-sale-rent-bike-trip-company-mark-repair-isolated-white-background-flat-style-trend-modern-logotype-design-vector-illustration_117142-390.jpg)
     
     # Mengambil start_date & end_date dari date_input
     start_date, end_date = st.date_input(
@@ -68,7 +68,7 @@ byworkday_df = create_byworkday_df(main_df)
 byseason_df = create_byseason_df(main_df)
 byweather_df = create_byweather_df(main_df)
 
-st.header('Dicoding Collection Dashboard :sparkles:')
+st.header('Bike Sharing :sparkles:')
 
 st.subheader('Daily Rentals')
  
